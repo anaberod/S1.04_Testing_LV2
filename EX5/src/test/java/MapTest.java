@@ -15,7 +15,7 @@ public class MapTest {
         countries.put("Spain", "Madrid");
         countries.put("Germany", "Berlin");
         //verificar que contiene España
-        assertThat(countries).containsKey("Portugal");
+        assertThat(countries).containsKey("Spain");
 
 
     }

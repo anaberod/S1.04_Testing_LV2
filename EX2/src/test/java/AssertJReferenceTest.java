@@ -6,10 +6,10 @@ public class AssertJReferenceTest {
 
     @Test
     void referencesAreTheSame() {
-        String s1= "Hello";
-        String s2 = s1;
-        String s3 = new String("Hello");
-        assertThat(s1).isSameAs(s2);
-        assertThat(s1).isNotSameAs(s3);
+        Object o1= new Object();
+        Object o2 = o1;
+        Object o3 = new Object();
+        assertThat(o1).isSameAs(o2);
+        assertThat(o1).isNotSameAs(o3);
     }
 }

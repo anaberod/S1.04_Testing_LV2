@@ -24,7 +24,7 @@ public class ArrayListAnimalTest {
         assertThat(animals).containsExactlyInAnyOrder(a3, a1, a2);
     }
     @Test
-    void shouldContainOnce() {
+    void shouldContainOnce() {//mirar containsonlyonce
         //crear objetos
         Animal dog = new Animal("dog");
         Animal cat = new Animal("cat");

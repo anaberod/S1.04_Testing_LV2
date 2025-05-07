@@ -10,7 +10,7 @@ public class OptionalTest {
 
     @Test
     void shouldBeEmptyOptional() {
-        Optional<String> emptyOptional = Optional.empty();
+        Optional<Object> emptyOptional = Optional.empty();
         //Error Optional<String> optional = Optional.of("Hello");
 
         //  Verifica que está vacío
